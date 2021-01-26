@@ -6,17 +6,19 @@ namespace ArchitectArithmetic
   {
     public static void Main(string[] args)
     {
-
+      Console.WriteLine(Rectangles(4, 5));
+      Console.WriteLine(Circles(4));
+      Console.WriteLine(Triangles(10, 9));
     }
 
-    public static double Rectangles(double length, double width) {
-        double area = length * width;
+    static double Rectangles(double length, double width) {
+      return length * width;
     }
-    public static double Circles(double pi = Math.PI(), double radius = Math.Pow()){
-        double area = pi * radius;
+    static double Circles(double radius){
+       return Math.PI * Math.Pow(radius, 2);
     }
-    public static double Triangles(double bottom, double height) {
-      area = 0.5 * bottom * height;
+    static double Triangles(double bottom, double height) {
+      return 0.5 * bottom * height;
     }
   }
 }
