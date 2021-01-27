@@ -6,18 +6,22 @@ namespace ArchitectArithmetic
   {
     public static void Main(string[] args)
     {
-      // to store and calculate the rectangle area of floor plan
+       // to store and calculate the rectangle area of floor plan
 
       Console.Write("please enter the rectangle length: ");
-      double rectangleLength = Console.ReadLine();
+      string rectangleLength = Console.ReadLine();
+      Convert.ToDouble(rectangleLength);
       Console.Write("Please enter the height of the rectangle: ");
-      double rectangleHeight = Console.ReadLine();
+      string rectangleHeight = Console.ReadLine();
+      Convert.ToDouble(rectangleHeight);
       double rectangleArea = Rectangles(rectangleLength, rectangleHeight);
+
 
       // to store and calculate the circle area in the floor plan
 
-      Console.Write("please enter the radius of the circle: ")
-      double circleRadius = Console.ReadLine();
+      Console.Write("please enter the radius of the circle: ");
+      string circleRadius = Console.ReadLine();
+      Convert.ToDouble(circleRadius);
       Console.Write("Is this a semi-circle> YES / NO");
       string answer = Console.ReadLine();
       answer.ToUpper();
@@ -30,9 +34,11 @@ namespace ArchitectArithmetic
       // to store and calculate the triangle area on the floor plan
 
       Console.Write("Enter the bottom value of the triangle: ");
-      double triangleBottom = Console.ReadLine();
+      string triangleBottom = Console.ReadLine();
+      Convert.ToDouble(triangleBottom);
       Console.Write("Enter the height value of the triangle: ");
-      double triangleHeight = Console.ReadLine();
+      string triangleHeight = Console.ReadLine();
+      Convert.ToDouble(triangleHeight);
       double trianglearea = Triangles(triangleBottom, traingleHeight);
 
       // total area is calculated below
@@ -42,7 +48,7 @@ namespace ArchitectArithmetic
 
       // The code below calculates the cost in gbp per square meter
       int pricePerSqareMeter = 50;
-      bool floorPlanPrice = pricePerSquareMeter * floorPlanArea;
+      double floorPlanPrice = pricePerSquareMeter * floorPlanArea;
       Console.WriteLine($"The total price for the flooring will cost {floorPlanPrice} to cover {floorPlanArea}m²");
     }
 
