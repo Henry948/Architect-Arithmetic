@@ -1,0 +1,5 @@
+C:\Users\henry\OneDrive\Documents\GitHub\Architect-Arithmetic\obj\Debug\net5.0\consoleasync.csprojAssemblyReference.cache
+C:\Users\henry\OneDrive\Documents\GitHub\Architect-Arithmetic\obj\Debug\net5.0\consoleasync.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\henry\OneDrive\Documents\GitHub\Architect-Arithmetic\obj\Debug\net5.0\consoleasync.AssemblyInfoInputs.cache
+C:\Users\henry\OneDrive\Documents\GitHub\Architect-Arithmetic\obj\Debug\net5.0\consoleasync.AssemblyInfo.cs
+C:\Users\henry\OneDrive\Documents\GitHub\Architect-Arithmetic\obj\Debug\net5.0\consoleasync.csproj.CoreCompileInputs.cache
