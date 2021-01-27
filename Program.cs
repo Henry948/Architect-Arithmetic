@@ -6,7 +6,14 @@ namespace ArchitectArithmetic
   {
     public static void Main(string[] args)
     {
-       RectangleArea();
+
+     // to store and calculate the rectangle area of floor plan
+      Console.Write("please enter the rectangle length: ");
+      double rectangleLength = Convert.ToDouble(Console.ReadLine());
+      Console.Write("Please enter the height of the rectangle: ");
+      double rectangleHeight =  Convert.ToDouble(Console.ReadLine());
+      Convert.ToDouble(rectangleHeight);
+      double rectangleArea = Rectangles(rectangleLength, rectangleHeight);
 
       // to store and calculate the circle area in the floor plan
 
@@ -28,9 +35,9 @@ namespace ArchitectArithmetic
       string triangleBottom = Console.ReadLine();
       double triBottomAsDouble = Convert.ToDouble(triangleBottom);
       Console.Write("Enter the height value of the triangle: ");
-      double triHeightAsDouble = string triangleHeight = Console.ReadLine();
-      Convert.ToDouble(triangleHeight);
-      double trianglearea = Triangles(triBottomAsDouble, triHeightAsDouble);
+      string triangleHeight = Console.ReadLine();
+      double triHeightAsDouble = Convert.ToDouble(triangleHeight);
+      double triangleArea = Triangles(triBottomAsDouble, triHeightAsDouble);
 
       // total area is calculated below
 
@@ -38,22 +45,11 @@ namespace ArchitectArithmetic
       Console.WriteLine($"The area of the complete floorplan is {floorPlanArea}m²");
 
       // The code below calculates the cost in gbp per square meter
-      int pricePerSqareMeter = 50;
+      int pricePerSquareMeter = 50;
       double floorPlanPrice = pricePerSquareMeter * floorPlanArea;
       Console.WriteLine($"The total price for the flooring will cost {floorPlanPrice} to cover {floorPlanArea}m²");
     }
 
-     // to store and calculate the rectangle area of floor plan
-    static double RectangleArea(double rectangleLength, double rectangleHeight) 
-    {
-      Console.Write("please enter the rectangle length: ");
-      rectangleLength = Console.ReadLine();
-      double recLengthAsDouble = Convert.ToDouble(rectangleLength);
-      Console.Write("Please enter the height of the rectangle: ");
-      double recHeightAsDouble = rectangleHeight = Console.ReadLine();
-      Convert.ToDouble(rectangleHeight);
-      return Rectangles(rectangleLength, rectangleHeight);
-    }
     static double Rectangles(double length, double width) {
       return length * width;
     }
