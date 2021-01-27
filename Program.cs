@@ -19,7 +19,7 @@ namespace ArchitectArithmetic
 
       Console.Write("please enter the radius of the circle: ");
       string circleRadius = Console.ReadLine();
-      Convert.ToDouble(circleRadius);
+      double circleRadiusAsDouble = Convert.ToDouble(circleRadius);
       Console.Write("Is this a semi-circle> YES / NO");
       string answer = Console.ReadLine();
       answer.ToUpper();
