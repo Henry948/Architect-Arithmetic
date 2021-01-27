@@ -6,16 +6,7 @@ namespace ArchitectArithmetic
   {
     public static void Main(string[] args)
     {
-       // to store and calculate the rectangle area of floor plan
-
-      Console.Write("please enter the rectangle length: ");
-      string rectangleLength = Console.ReadLine();
-      Convert.ToDouble(rectangleLength);
-      Console.Write("Please enter the height of the rectangle: ");
-      string rectangleHeight = Console.ReadLine();
-      Convert.ToDouble(rectangleHeight);
-      double rectangleArea = Rectangles(rectangleLength, rectangleHeight);
-
+       RectangleArea();
 
       // to store and calculate the circle area in the floor plan
 
@@ -52,6 +43,17 @@ namespace ArchitectArithmetic
       Console.WriteLine($"The total price for the flooring will cost {floorPlanPrice} to cover {floorPlanArea}m²");
     }
 
+     // to store and calculate the rectangle area of floor plan
+    static double RectangleArea(double rectangleLength, double rectangleHeight) 
+    {
+      return Console.Write("please enter the rectangle length: ");
+      return rectangleLength = Console.ReadLine();
+      return Convert.ToDouble(rectangleLength);
+      return Console.Write("Please enter the height of the rectangle: ");
+      return rectangleHeight = Console.ReadLine();
+      return Convert.ToDouble(rectangleHeight);
+      return Rectangles(rectangleLength, rectangleHeight);
+    }
     static double Rectangles(double length, double width) {
       return length * width;
     }
