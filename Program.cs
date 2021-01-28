@@ -18,8 +18,7 @@ namespace ArchitectArithmetic
       // to store and calculate the circle area in the floor plan
 
       Console.Write("please enter the radius of the circle: ");
-      string circleRadius = Console.ReadLine();
-      double circleRadiusAsDouble = Convert.ToDouble(circleRadius);
+      double circleRadius = Convert.ToDouble(Console.ReadLine());
       Console.Write("Is this a semi-circle> YES / NO");
       string answer = Console.ReadLine();
       answer.ToUpper();
