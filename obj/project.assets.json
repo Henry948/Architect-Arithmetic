@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\henry\\OneDrive\\Documents\\GitHub\\Architect-Arithmetic\\consoleasync.csproj",
+      "projectUniqueName": "c:\\Users\\henry\\OneDrive\\Documents\\GitHub\\Architect-Arithmetic\\consoleasync.csproj",
       "projectName": "consoleasync",
-      "projectPath": "C:\\Users\\henry\\OneDrive\\Documents\\GitHub\\Architect-Arithmetic\\consoleasync.csproj",
+      "projectPath": "c:\\Users\\henry\\OneDrive\\Documents\\GitHub\\Architect-Arithmetic\\consoleasync.csproj",
       "packagesPath": "C:\\Users\\henry\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\henry\\OneDrive\\Documents\\GitHub\\Architect-Arithmetic\\obj\\",
+      "outputPath": "c:\\Users\\henry\\OneDrive\\Documents\\GitHub\\Architect-Arithmetic\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -65,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }

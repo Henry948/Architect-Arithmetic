@@ -19,7 +19,7 @@ namespace ArchitectArithmetic
 
       Console.Write("please enter the radius of the circle: ");
       double circleRadius = Convert.ToDouble(Console.ReadLine());
-      Console.Write("Is this a semi-circle? YES / NO");
+      Console.Write("Is this a semi-circle? YES / NO: ");
       string answer = Console.ReadLine();
       answer.ToUpper();
       double circleArea;
@@ -44,9 +44,12 @@ namespace ArchitectArithmetic
       Console.WriteLine($"The area of the complete floorplan is {floorPlanArea}m²");
 
       // The code below calculates the cost in gbp per square meter
-      int pricePerSquareMeter = 50;
+      string stringPerSquareMeter;
+      Console.Write("Please enter the price of flooring per square meter: ");
+      stringPerSquareMeter = Console.ReadLine();
+      int pricePerSquareMeter = Convert.ToInt32(stringPerSquareMeter);
       double floorPlanPrice = pricePerSquareMeter * floorPlanArea;
-      Console.WriteLine($"The total price for the flooring will cost {floorPlanPrice} to cover {floorPlanArea}m²");
+      Console.WriteLine($"The total price for the flooring will cost £{floorPlanPrice} to cover {floorPlanArea}m²");
     }
 
     static double Rectangles(double length, double width) {
